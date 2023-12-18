@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{71859391-9A73-48AB-8BB6-71E179102497}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>SQLAssistant</RootNamespace>
-    <AssemblyName>SQLAssistant</AssemblyName>
+    <ProjectGuid>{F66F3F77-E04B-49C3-893B-48491D21B88B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SQLAssistant29Dal</RootNamespace>
+    <AssemblyName>SQLAssistant29Dal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,54 +37,29 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMain.Designer.cs">
-      <DependentUpon>FrmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmMain.resx">
-      <DependentUpon>FrmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SQLAssistant10Common\SQLAssistant10Common.csproj">
       <Project>{9043d36f-8f40-4240-a057-a93b2ee7e730}</Project>
       <Name>SQLAssistant10Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SQLAssistant29Dal\SQLAssistant29Dal.csproj">
-      <Project>{f66f3f77-e04b-49c3-893b-48491d21b88b}</Project>
-      <Name>SQLAssistant29Dal</Name>
+    <ProjectReference Include="..\SQLAssistant21MySql\SQLAssistant21MySql.csproj">
+      <Project>{da6a0053-3930-4595-a3b7-221228ac050f}</Project>
+      <Name>SQLAssistant21MySql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLAssistant22MsSql\SQLAssistant22MsSql.csproj">
+      <Project>{00a77bd2-4c1e-41b5-848d-366d89158969}</Project>
+      <Name>SQLAssistant22MsSql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLAssistant23SqLite\SQLAssistant23SqLite.csproj">
+      <Project>{fc55333c-c60e-46b5-bfbf-04be6d0080dd}</Project>
+      <Name>SQLAssistant23SqLite</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

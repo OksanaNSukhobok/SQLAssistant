@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(627, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 50);
@@ -52,7 +52,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(627, 78);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 50);
@@ -62,7 +62,7 @@
             // 
             // BtnService
             // 
-            this.BtnService.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnService.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BtnService.Location = new System.Drawing.Point(627, 148);
             this.BtnService.Name = "BtnService";
             this.BtnService.Size = new System.Drawing.Size(152, 50);
@@ -72,7 +72,7 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.Location = new System.Drawing.Point(627, 213);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(152, 50);
@@ -93,10 +93,10 @@
             // LblResult
             // 
             this.LblResult.AutoSize = true;
-            this.LblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LblResult.Location = new System.Drawing.Point(12, 255);
             this.LblResult.Name = "LblResult";
-            this.LblResult.Size = new System.Drawing.Size(63, 20);
+            this.LblResult.Size = new System.Drawing.Size(56, 18);
             this.LblResult.TabIndex = 5;
             this.LblResult.Text = "Result";
             this.LblResult.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -114,10 +114,10 @@
             // LblSql
             // 
             this.LblSql.AutoSize = true;
-            this.LblSql.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LblSql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LblSql.Location = new System.Drawing.Point(12, 51);
             this.LblSql.Name = "LblSql";
-            this.LblSql.Size = new System.Drawing.Size(46, 20);
+            this.LblSql.Size = new System.Drawing.Size(41, 18);
             this.LblSql.TabIndex = 7;
             this.LblSql.Text = "SQL";
             this.LblSql.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -133,10 +133,10 @@
             // LblConnection
             // 
             this.LblConnection.AutoSize = true;
-            this.LblConnection.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LblConnection.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LblConnection.Location = new System.Drawing.Point(12, 13);
             this.LblConnection.Name = "LblConnection";
-            this.LblConnection.Size = new System.Drawing.Size(103, 20);
+            this.LblConnection.Size = new System.Drawing.Size(94, 18);
             this.LblConnection.TabIndex = 9;
             this.LblConnection.Text = "Connection";
             this.LblConnection.TextAlign = System.Drawing.ContentAlignment.TopCenter;
